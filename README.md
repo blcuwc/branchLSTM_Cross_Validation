@@ -5,10 +5,10 @@ The original branchLSTM project address: https://github.com/kochkinaelena/branch
 
 In this project, we conduct a non-exhaustive 5-fold cross validation to the original extended PHEME dataset in SemEval-2017 Task 8.
 
-We change the eval_train_model() function on predict.py file, use regular expression package to extract the maximum branch length from saved npy file, to make it able to train on other dataset with different maximum branch length.
+We change the "eval_train_model()" function on predict.py file, use regular expression package to extract the maximum branch length from saved npy file, to make it able to train on other dataset with different maximum branch length.
 
-To apply branchLSTM on other dataset with different scale of conversations, you can change the dataset loading part befor using preprocessing() method in preprocessing.py.
+To apply branchLSTM on other dataset with different scale of conversations, you can change the dataset loading part befor using "preprocessing()" method in preprocessing.py.
 
-Read README.md in downloaded_data to download depend files.
+Read README.md in downloaded_data/ to download depend files.
 
 To run the experiment pipeline, use "sh run_branchLSTM_pipeline.sh"
