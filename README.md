@@ -9,6 +9,6 @@ We change the "eval_train_model()" function on predict.py file, use regular expr
 
 To apply branchLSTM on other dataset with different scale of conversations, you can change the dataset loading part befor using "preprocessing()" method in preprocessing.py.
 
-Read README.md in downloaded_data/ to download depend files.
+Read README.md in downloaded_data/ to download dependent files.
 
 To run the experiment pipeline, use "sh run_branchLSTM_pipeline.sh"
